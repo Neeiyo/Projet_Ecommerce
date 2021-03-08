@@ -9,6 +9,6 @@
 require 'faker'
 
 20.times do
-  Item.create(title: Faker::Creature::Cat.name, description: Faker::Creature::Cat.breed, price: Faker::Number.between(from: 10.0, to: 499.9), 
+  Items.create(title: Faker::Creature::Cat.name, description: Faker::Creature::Cat.breed, price: Faker::Number.between(from: 10.0, to: 499.9), 
   image_url: "https://www.bdaddik.com/6474-thickbox_default/poster-offset-blacksad-juanjo-guarnido-john-portrait-24x18cm.jpg")
 end
